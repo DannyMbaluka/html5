@@ -8,12 +8,64 @@
 </head>
 <body>
    <header>
+        <section>
+        <h1 style="color: Coral">HTML5 <small>Tutorials</small></h1>
+        </section>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">
+                    <img src="resources/images/Home-icon.png" height="25" width="28">
+                    Home</a>
+                </li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
+        <br>
+        <section>
+        <fieldset>
+        <legend><h4>Media</h4></legend>
+            <table>
+            <tr>
+                <td>Audio</td>
+                <td>
+                    <audio src="http://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls>
+                    </audio>
+                </td>
+                <td>
+                    <code>
+                        &ltaudio src=http://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3 controls&gt
+                        &lt/audio&gt
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Video
+                </td>
+                <td>
+                    <video controls width="300">
+                    <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                </video>
+                </td>
+                <td>
+                    <code>
+                        &ltvideo src=http://techslides.com/demos/sample-videos/small.mp4 controls&gt
+                        &lt/video&gt
+                    </code>
+                </td>
+            </tr>
+            </table>
+            </fieldset>
+        </section>
+        <section>
+        <fieldset>
+            <legend><h4>Forms</h4></legend>
+            <form>
+            <label for="email">Email</label>
+            <input id="email" type="email" required placeholder="Email address">
+            </form>
+        </fieldset>
+        </section>
    </header>
 
 </body>
